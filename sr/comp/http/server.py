@@ -194,7 +194,7 @@ def get_config_dict(comp):
         'match_slots': {k: int(v.total_seconds())
                         for k, v in comp.schedule.match_slot_lengths.items()},
         'server': {library: working_set.by_key[library].version
-                   for library in ('sr.comp', 'sr.comp.http', 'sr.comp.ranker',
+                   for library in ('sr.comp', 'sr.comp.http', 'league-ranker',
                                    'flask')},
         'ping_period': 10
     }
