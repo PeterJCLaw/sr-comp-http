@@ -17,7 +17,7 @@ setup(
         'PyYAML >=3.11, <4',
         'sr.comp >=1.1, <2',
         'six >=1.8, <2',
-        'Flask >=1.0, <2',
+        'Flask<0.11',
         'simplejson >=3.6, <4',
         'python-dateutil >=2.2, <3',
     ],
